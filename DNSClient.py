@@ -1,7 +1,7 @@
 import dns.resolver
 
 # Set the IP address of the local DNS server and a public DNS server
-local_host_ip = '192.168.1.1'  # Local DNS server (usually localhost)
+local_host_ip = '127.0.0.1'  # Local DNS server (usually localhost)
 real_name_server = '8.8.8.8'  # Google's Public DNS server (you can use other public DNS servers like 1.1.1.1 for Cloudflare)
 
 # Create a list of domain names to query
